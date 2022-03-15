@@ -1,4 +1,4 @@
-describe( 'Cypress Demo', function() {
+describe( 'Cypress Demo Test', function() {
 	it( 'can wait for an element to appear', function() {
         cy.visit('http://webdriverjsdemo.github.io'); 
         cy.get('#elementappearschild').should('be.visible');
