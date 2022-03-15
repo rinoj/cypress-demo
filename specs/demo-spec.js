@@ -1,5 +1,5 @@
 describe( 'Cypress Demo', function() {
-	it( 'can wait for an element to app1ear', function() {
+	it( 'can wait for an element to appear', function() {
         cy.visit('http://webdriverjsdemo.github.io'); 
         cy.get('#elementappearschild').should('be.visible');
 	} );
